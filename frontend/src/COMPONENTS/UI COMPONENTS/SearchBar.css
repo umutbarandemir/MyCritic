@@ -1,0 +1,68 @@
+.searchbar {
+  display: flex;
+  flex-direction: column; /* bu satır yazının ve search barın altlı üstlü olmasını sağlıyor*/
+  align-items: center;
+  justify-content: center;
+   border: 3px solid ;
+   border-radius: 50px;
+   border-color: black;
+   padding: 4px;
+   background-color:dimgrey;
+   background-position: center;
+   background-size: cover;
+   margin:60px 50px 60px 50px ; /* width: 100%; // margin in order -> top right bottom left */
+ }
+ 
+ .searchbar input {
+   flex: 1;
+   border: none;
+   outline: none;
+   font-size: 32px;
+   padding: 8px;
+ }
+
+ .searchbar h1{
+  align-items: center;
+  color: greenyellow;
+ }
+
+ .searchbar-component{
+  border: 3px solid #ccc;
+  margin-top:20px ;
+  margin-bottom: 20px;
+  backdrop-filter: blur(4px) saturate(180%);
+  width: 100%;
+  max-width: 700px;
+  background-color:rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 60px;
+  padding: 10px 20px;
+ }
+
+ .searchbar-component input{
+  background-color: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 30px 20px;
+  font-size: 30px;
+  color:greenyellow;
+ }
+
+ ::placeholder{
+  color: greenyellow;
+ }
+
+ .searchbar-component button{
+  width: 30px;
+  border: 0;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor:pointer;
+  background: yellowgreen;
+ }

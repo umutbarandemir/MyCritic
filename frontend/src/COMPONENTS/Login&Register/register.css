@@ -1,0 +1,67 @@
+.register{
+	display: flex;
+	width: 40%;
+	height: 40%;
+	margin: 200px 500px 200px 500px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	border: 3px solid ;
+    border-radius: 30px;
+    border-color: yellowgreen;
+    padding: 100px 100px 100px 100px;
+	background-image: url("123.jpg") ;
+}
+
+.register label{
+	color: yellowgreen;
+}
+
+.registerTitle{
+    margin-bottom: 80px;
+}
+
+.registerForm{
+    width: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.register h1{
+	color: yellowgreen;
+}
+
+.registerBtn{
+	width: 80%;
+	padding: 15px;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	border-radius: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fffbf5;
+	background-color: yellowgreen;
+	margin-bottom: 15px;
+	margin-top: 30px;
+    
+}
+
+.registerinput{
+	width: 100%;
+	padding: 10px 20px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	margin-bottom: 15px;
+}
+
+.switchlogin{
+	width: 100%;
+    border: 3px solid ;
+    border-radius: 50px;
+    border-color: white;
+    padding: 5px;
+}

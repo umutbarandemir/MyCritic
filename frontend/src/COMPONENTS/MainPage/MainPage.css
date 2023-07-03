@@ -1,0 +1,9 @@
+.mainpagecss h1{
+    justify-content: center;
+    display: flex;
+    margin-left: 50px;
+    color:floralwhite;
+    text-decoration: underline yellowgreen;
+    font-size: 300%;
+}
+

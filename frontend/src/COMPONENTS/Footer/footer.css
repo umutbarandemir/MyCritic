@@ -1,0 +1,30 @@
+.footer-container{
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    justify-content: center;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 25vh;
+}
+
+.footer-container h1{ 
+    color: white;
+}
+
+.footer-container h4{  
+    color: white;
+}
+
+.footer-container ul{
+    padding: 0;
+    margin: 0.5rem;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+

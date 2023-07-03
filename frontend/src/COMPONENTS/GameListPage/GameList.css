@@ -1,0 +1,14 @@
+.gamelist{
+    display:block;
+    justify-content: center;
+    text-align: center; 
+}
+
+.gamelist h1{
+    justify-content: left;
+    display: flex;
+    margin-left: 50px;
+    color:floralwhite;
+    text-decoration: underline yellowgreen;
+    font-size: 300%;
+}

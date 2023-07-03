@@ -1,0 +1,25 @@
+.infocard{
+    display:block;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid yellowgreen;
+    border-radius: 20px;
+    font-size: 130%;
+}
+
+.infocard-content{
+    display:block;
+    justify-content: left;
+    border: 2px solid yellowgreen;
+    border-radius: 20px;
+}
+
+.infocard-content h2{
+    justify-content: left;
+    display: flex;
+    margin-left: 50px;
+    color:floralwhite;
+    text-decoration: underline yellowgreen;
+    font-size: 100%;
+}
+

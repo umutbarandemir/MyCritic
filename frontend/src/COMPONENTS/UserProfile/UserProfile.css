@@ -1,0 +1,28 @@
+.userprofileinfo{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin: 30px 60px 30px 60px;
+}
+
+.profilewrapper{
+    border: 2px solid yellowgreen;
+    border-radius: 20px;
+    width:80%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.userprofileinfo h1{ 
+    color:floralwhite;
+    text-decoration: underline yellowgreen;
+    font-size: 300%;
+}
+
+.userprofileinfo h2{
+    color:floralwhite;
+    text-decoration: underline yellowgreen;
+    font-size: 200%;
+}
+

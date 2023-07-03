@@ -1,0 +1,11 @@
+.likes__container {
+	display: flex;
+	align-items: center;
+	margin-right: 25px;
+}
+
+.likesBtn {
+	height: 30px;
+	color: #f99417;
+	cursor: pointer;
+}

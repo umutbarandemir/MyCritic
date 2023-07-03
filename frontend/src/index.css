@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("arkaplan.webp");
+  background-color:darkgray;
+  background-position: center;
+  background-size: cover;
+}
+
+.container{
+  width: 100%;
+  margin: 1em auto;
+ 
+}
+
+.grid{
+  display: grid;
+  margin-left: .5px;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 0.2em;
+  justify-content: center;
+}
+
+.container{
+  margin: 1rem;
+  text-align: center;
+}
+
+.popup{
+  height: 400px;
+  width: 50%;
+  background-color: white;
+  position: absolute;
+  top: 25%;
+  right: 25%;
+}
+.popup-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px 0 15px;
+  border-bottom: 2px solid black;
+}
