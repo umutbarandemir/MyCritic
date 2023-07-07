@@ -7,7 +7,7 @@ const mongoose = require("mongoose");
 const { Double, Int32 } = require("mongodb");
 const connectDB = async () => {
   try {
-    const conn = await mongoose.connect(`mongodb+srv://umutbaran1:lHXBmvST607W7bld@cluster0.oqvigy9.mongodb.net/`, {
+    const conn = await mongoose.connect(`mongodb+srv://<username:password>@cluster0.oqvigy9.mongodb.net/`, {
       dbName:'Cluster0',
       useNewUrlParser: true,
       useUnifiedTopology: true,});
